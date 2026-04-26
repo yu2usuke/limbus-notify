@@ -3,7 +3,7 @@ import feedparser
 import requests
 
 FEED_URL = "https://rsshub.app/twitter/user/LimbusCompany_"
-WEBHOOK  = os.environ["DISCORD_WEBHOOK"]
+WEBHOOK  = os.environ["https://discordapp.com/api/webhooks/1468589262265127008/2_UPelDnJSQbhZHuJ4QZftbbBFSmw7FYdKgTDF66_SungA0l5-nyLV4X43suwwFwc8TM"]
 ID_FILE  = "last_id.txt"
 
 # 前回の最終IDを読み込み
